@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SCOS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="diancai">点菜</string>
+    <string name="dingdan">查看订单</string>
+    <string name="denglu">登录/注册</string>
+    <string name="bangzhu">系统帮助</string>
+    <string name="title_activity_login_or_register">LoginOrRegister</string>
+    <string name="title_activity_food_view">FoodView</string>
+    <string name="title_activity_food_order_view">FoodOrderView</string>
+    <string name="title_activity_food_detailed">FoodDetailed</string>
+<<<<<<< HEAD
+    <string name="title_activity_scoshelper">SCOSHelper</string>
+=======
+>>>>>>> 091363891075d850ed6d10f33087363dee5edab7
+</resources>

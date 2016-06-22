@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.source.code.activity.FoodView">
+    <item android:id="@+id/haveOrdered"
+        android:title="已点菜品"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item android:id="@+id/checkOrder"
+        android:title="查看菜单"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+    <item android:id="@+id/callService"
+        android:title="呼叫服务"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+</menu>

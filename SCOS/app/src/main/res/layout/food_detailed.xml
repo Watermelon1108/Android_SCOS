@@ -1,0 +1,121 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="es.source.code.activity.FoodDetailed">
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="菜品总数:"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:id="@+id/caipinNum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:hint="20"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="订单总价:"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:id="@+id/orderNum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:hint="￥998"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="备 注："
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                />
+            <EditText
+                android:id="@+id/food_note"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:textSize="20dp"
+                android:hint="多加米饭。。"
+                android:background="@drawable/bg_border"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/statu"
+            android:text="点 菜"
+            android:textSize="20dp"
+            android:background="@drawable/background_button_div"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/image_ll"
+        android:layout_marginTop="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="200sp">
+        <ImageView
+            android:id="@+id/image"
+            android:background="@drawable/liangcai"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>
